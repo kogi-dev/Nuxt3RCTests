@@ -1,4 +1,5 @@
 export default defineEventHandler((event) => {
-    return`Hello, ${event.context?.params?.name || 'ups name param is undefined'}!`
+    console.log(event.context)
+    return`Hello, ${event.context?.params?.name || 'ups name param is undefined'}! from index`
     }
 )

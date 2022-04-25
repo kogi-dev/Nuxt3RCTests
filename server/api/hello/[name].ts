@@ -1,4 +1,5 @@
 export default defineEventHandler((event) => {
-    return`Hello, ${event.context?.params?.name || 'uupps name param is undefined'}!`
+    console.log(event.context.params)
+    return`Hello, ${event.context?.params?.name || 'uupps name param is undefined'}! from param route`
     }
 )
