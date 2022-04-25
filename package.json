@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.12.3",
+    "nuxt": "3.0.0-rc.1",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"
+  },
+  "dependencies": {
+    "vue3-datepicker": "^0.3.3"
+  }
+}
